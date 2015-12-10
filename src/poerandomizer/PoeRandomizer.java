@@ -54,7 +54,7 @@ public class PoeRandomizer {
             Random randomSkill = new Random();
 
             int classIndex = randomClass.nextInt(6);
-            int skillIndex = randomSkill.nextInt(89);
+            int skillIndex = randomSkill.nextInt(85);
 
             if (firstCase <= 0) {
                 System.out.println("\nYour class is : " + classes[classIndex]);
@@ -79,7 +79,7 @@ public class PoeRandomizer {
             } else if ("Y".equals(inputReader.toUpperCase())) {
 
                 classIndex = randomClass.nextInt(6);
-                skillIndex = randomSkill.nextInt(89);
+                skillIndex = randomSkill.nextInt(85);
 
                 System.out.println("\nYour class is : " + classes[classIndex]);
                 System.out.println("Your skill gem of choice is : " + skillGems[skillIndex]);
